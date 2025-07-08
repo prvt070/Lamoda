@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.reklama{
+    padding: 5px 0px 1px 0px;
+}
+
+.logo_bar{
+    .active{
+        color: black;
+        border-bottom: 2px solid black;
+    }
+    .active:hover{
+            color: rgb(170, 170, 170);
+            transition: 0.5s;
+        }
+    li{
+        display: inline-block;
+        margin-left: 10px;
+        a{
+            color: rgb(170, 170, 170);
+            text-decoration: none;
+        }
+        a:hover{
+            color: black;
+            transition: 0.5s;
+        }
+    }
+    img{
+        margin-left: 230px;
+    }
+}

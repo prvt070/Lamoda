@@ -1,1 +1,33 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.reklama {
+  padding: 5px 0px 1px 0px;
+}
+
+.logo_bar .active {
+  color: black;
+  border-bottom: 2px solid black;
+}
+.logo_bar .active:hover {
+  color: rgb(170, 170, 170);
+  transition: 0.5s;
+}
+.logo_bar li {
+  display: inline-block;
+  margin-left: 10px;
+}
+.logo_bar li a {
+  color: rgb(170, 170, 170);
+  text-decoration: none;
+}
+.logo_bar li a:hover {
+  color: black;
+  transition: 0.5s;
+}
+.logo_bar img {
+  margin-left: 230px;
+}/*# sourceMappingURL=style.css.map */
