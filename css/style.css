@@ -55,18 +55,16 @@ body {
   color: black;
 }
 
-swiper-container {
+.swiper-container1 {
   width: 98%;
   height: 650px;
   margin-top: 20px;
 }
-
-swiper-container:hover {
+.swiper-container1 .swiper-container1:hover {
   opacity: 0.7;
   transition: 0.5s;
 }
-
-swiper-slide {
+.swiper-container1 swiper-slide {
   text-align: center;
   font-size: 18px;
   background-color: white;
@@ -77,18 +75,18 @@ swiper-slide {
   justify-content: center;
   align-items: center;
 }
-swiper-slide img {
+.swiper-container1 swiper-slide img {
   display: block;
   width: 95%;
   height: 570px;
   margin-top: -120px;
   margin-left: -600px;
 }
-swiper-slide .text {
+.swiper-container1 swiper-slide .text {
   margin-bottom: -500px;
   margin-left: -899px;
 }
-swiper-slide .text2 {
+.swiper-container1 swiper-slide .text2 {
   margin-bottom: -550px;
   margin-left: -350px;
 }
@@ -100,4 +98,41 @@ swiper-slide .text2 {
   background-color: #f6f6f6;
   margin-left: 50px;
   margin-top: 20px;
+}
+
+.sec4 {
+  margin-top: 40px;
+}
+.sec4 h1 {
+  margin-left: 40px;
+}
+.sec4 .sec4_ul li {
+  display: inline-block;
+  border-radius: 50px;
+  padding: 5px 7px 5px 7px;
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  margin-left: 10px;
+}
+.sec4 .sec4_ul li a {
+  color: black;
+  text-decoration: none;
+}
+.sec4 .swiper-container2 {
+  width: 100%;
+  height: 100%;
+}
+.sec4 .swiper-container2 swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec4 .swiper-container2 swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=style.css.map */
