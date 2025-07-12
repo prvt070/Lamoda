@@ -91,4 +91,13 @@ swiper-slide .text {
 swiper-slide .text2 {
   margin-bottom: -550px;
   margin-left: -350px;
+}
+
+.sec2 h1 {
+  margin-left: 50px;
+}
+.sec2 .col {
+  background-color: #f6f6f6;
+  margin-left: 50px;
+  margin-top: 20px;
 }/*# sourceMappingURL=style.css.map */
