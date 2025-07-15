@@ -157,19 +157,44 @@ body {
 
 
         swiper-slide {
-            text-align: center;
+            text-align: start;
+            width: 300px;
+            justify-content: start;
             font-size: 18px;
+            height: 510px;
             background: #fff;
             display: flex;
-            justify-content: center;
             align-items: center;
+        }
 
-            img {
-                display: block;
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-            }
+        i {
+            z-index: 2;
+            color: black;
+            margin-bottom: -500px;
+            margin-left: -280px;
+        }
+
+        .span2 {
+            z-index: 2;
+            color: black;
+            margin-bottom: -500px;
+            margin-left: 10px;
+        }
+
+        .logo {
+            width: 45px;
+            float: left;
+            display: block;
+            margin-top: -450px;
+        }
+
+        .span1 {
+            margin-top: -450px;
+            margin-right: -250px;
+        }
+
+        .big_img {
+            margin-bottom: -40px;
         }
     }
 }
