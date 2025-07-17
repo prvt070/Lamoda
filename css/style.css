@@ -155,4 +155,25 @@ body {
 }
 .sec4 .swiper-container2 .big_img {
   margin-bottom: -40px;
+}
+
+.swiper-container3 {
+  width: 100%;
+  height: 100%;
+}
+.swiper-container3 swiper-slide {
+  text-align: center;
+  display: block;
+  height: 300px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-container3 swiper-slide img {
+  width: 100%;
+  height: 50%;
+}
+.swiper-container3 swiper-slide del {
+  margin-bottom: -200px;
 }/*# sourceMappingURL=style.css.map */
