@@ -159,12 +159,12 @@ body {
 
 .swiper-container3 {
   width: 100%;
-  height: 100%;
+  height: 400px;
 }
 .swiper-container3 swiper-slide {
   text-align: center;
   display: block;
-  height: 300px;
+  height: 400px;
   font-size: 18px;
   display: flex;
   justify-content: center;
@@ -175,5 +175,5 @@ body {
   height: 50%;
 }
 .swiper-container3 swiper-slide del {
-  margin-bottom: -200px;
+  margin-bottom: -220px;
 }/*# sourceMappingURL=style.css.map */
